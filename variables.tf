@@ -14,7 +14,7 @@ variable "volume_type" {
   default     = "gp2"
 }
 
-variable "device_name" {
+/* variable "device_name" {
   description = "Device name to expose to the instance (e.g., /dev/sdh)"
   type        = string
 }
@@ -22,4 +22,4 @@ variable "device_name" {
 variable "instance_id" {
   description = "The ID of the instance to attach the volume to"
   type        = string
-}
+} */
